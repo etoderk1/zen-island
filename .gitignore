@@ -1,0 +1,12 @@
+# сборка
+build/
+*.o
+*.res
+# готовые exe кладём в Releases, а не в репозиторий
+/ZenIsland.exe
+/DynamicIsland.exe
+# данные острова (история буфера, скриншоты, журнал)
+data/
+cache/
+screenshots/
+recordings/

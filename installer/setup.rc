@@ -1,0 +1,25 @@
+#include <windows.h>
+#include "../src/version.h"
+1 ICON "../src/island.ico"
+1 RT_MANIFEST "setup.manifest"
+100 RCDATA "../build/ZenIsland.exe"
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION ZEN_VERSION_RC
+PRODUCTVERSION ZEN_VERSION_RC
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041904B0"
+    BEGIN
+      VALUE "FileDescription", "Установка Zen Island"
+      VALUE "ProductName", "Zen Island"
+      VALUE "FileVersion", ZEN_VERSION_A
+      VALUE "ProductVersion", ZEN_VERSION_A
+      VALUE "OriginalFilename", "ZenIsland-Setup.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0419, 1200
+  END
+END

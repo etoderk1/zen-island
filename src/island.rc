@@ -1,0 +1,29 @@
+#include <windows.h>
+#include "version.h"
+
+1 ICON "island.ico"
+1 RT_MANIFEST "island.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION ZEN_VERSION_RC
+PRODUCTVERSION ZEN_VERSION_RC
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041904B0"
+    BEGIN
+      VALUE "CompanyName", "derk"
+      VALUE "FileDescription", "Zen Island"
+      VALUE "FileVersion", ZEN_VERSION_A
+      VALUE "ProductName", "Zen Island"
+      VALUE "ProductVersion", ZEN_VERSION_A
+      VALUE "OriginalFilename", "ZenIsland.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x419, 1200
+  END
+END
